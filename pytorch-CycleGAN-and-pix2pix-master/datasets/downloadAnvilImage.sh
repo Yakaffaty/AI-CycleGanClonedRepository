@@ -1,2 +1,1 @@
-FILE=$1
-zip image.zip FILE
+zip image.zip $1

@@ -1,7 +1,5 @@
 FILE=$1
-zip $FILE.zip $FILE
-ZIP_FILE=./datasets/$FILE.zip
-TARGET_DIR=./datasets/$FILE/
-mkdir $TARGET_DIR
-unzip $ZIP_FILE -d ./datasets/
+zip image.zip $FILE
+ZIP_FILE=./datasets/prueba/image.zip
+unzip $ZIP_FILE -d ./datasets/prueba
 rm $ZIP_FILE
